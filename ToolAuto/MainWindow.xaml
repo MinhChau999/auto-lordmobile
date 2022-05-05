@@ -1,0 +1,16 @@
+﻿<Window x:Class="ToolAuto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToolAuto"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Button Click="ClickConnect" Width="358" Content="OpenApp"/>
+        <Button Click="ClickButton" Width="358" Content="Start"/>
+        <Button Click="ClickButtonStop" Width="358" Content="Stop"/>
+        <Button Click="ClickButtonTest" Width="358" Content="Test"/>
+        <Button Click="ClickButtonHelp" Width="358" Content="Help"/>
+    </StackPanel>
+</Window>
