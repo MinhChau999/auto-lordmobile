@@ -319,11 +319,6 @@ namespace ToolAuto
         {
             KAutoHelper.ADBHelper.SwipeByPercent(deviceID, 50, 66, 50, 46, 150);
         }
-
-        void swipeDown2(string deviceID)
-        {
-            KAutoHelper.ADBHelper.SwipeByPercent(deviceID, 50, 66, 50, 46, 150);
-        }
         void swipeUp(string deviceID)
         {
             KAutoHelper.ADBHelper.SwipeByPercent(deviceID, 50, 46, 50, 66, 150);
